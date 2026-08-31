@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or adapt Strata 0–3, please cite this repository and identify the exact release."
+title: "Strata 0–3: A Reasoning and Alignment Scaffold for AI Systems"
+type: software
+authors:
+  - name: "Frank and Strata Project contributors"
+version: "0.5"
+date-released: 2026-08-26
+license: CC-BY-4.0
+abstract: >-
+  A compact, model-legible reasoning scaffold intended to support epistemic
+  honesty, boundary discipline, corrigibility, useful refusal, and escalation
+  in artificial-intelligence systems. This is a tested prototype scaffold,
+  not a scientifically proven or complete alignment solution.
+keywords:
+  - artificial intelligence
+  - alignment
+  - system prompts
+  - corrigibility
+  - epistemic uncertainty
+  - refusal
+  - adversarial review
