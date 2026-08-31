@@ -4,8 +4,7 @@ title: "Strata 0–3: A Reasoning and Alignment Scaffold for AI Systems"
 type: software
 authors:
   - name: "Frank and Strata Project contributors"
-version: "0.5"
-date-released: 2026-08-26
+version: "0.5-draft"
 license: CC-BY-4.0
 abstract: >-
   A compact, model-legible reasoning scaffold intended to support epistemic

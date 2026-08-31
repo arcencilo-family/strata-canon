@@ -41,7 +41,7 @@ See [`LIMITATIONS.md`](LIMITATIONS.md) for the claim boundary.
 
 ## Canon and adaptations
 
-Files under [`canon/`](canon/) are the exact publication release identified by the manifest. You may adapt them under CC BY 4.0, but modified versions must be clearly marked as adaptations and must not be represented as the canonical Strata release maintained by this project.
+Files under [`canon/`](canon/) are the exact synchronized publication draft identified by the manifest. The first GitHub release will create the freeze point. You may adapt released text under CC BY 4.0, but modified versions must be clearly marked as adaptations and must not be represented as the canonical Strata release maintained by this project.
 
 The license itself already requires attribution and indication of changes. The request not to call modified versions canonical is a provenance and naming rule, not an attempt to prohibit adaptation.
 
@@ -73,7 +73,7 @@ See [`ACKNOWLEDGMENTS.md`](ACKNOWLEDGMENTS.md) for the exact disclosure and limi
 
 ## License
 
-The Strata texts and repository documentation are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE).
+The Strata texts and repository documentation are prepared for release under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE). The repository is not yet publicly released.
 
 Suggested attribution:
 
