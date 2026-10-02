@@ -3,14 +3,16 @@ message: "If you use or adapt Strata 0–3, please cite this repository and iden
 title: "Strata 0–3: A Reasoning and Alignment Scaffold for AI Systems"
 type: software
 authors:
-  - name: "Frank and Strata Project contributors"
+  - given-names: Frank
+    family-names: Böhm
 version: "0.5-draft"
 license: CC-BY-4.0
 abstract: >-
-  A compact, model-legible reasoning scaffold intended to support epistemic
-  honesty, boundary discipline, corrigibility, useful refusal, and escalation
-  in artificial-intelligence systems. This is a tested prototype scaffold,
-  not a scientifically proven or complete alignment solution.
+  A proposed reasoning scaffold intended to support epistemic honesty, boundary
+  discipline, corrigibility, useful refusal, and escalation in artificial-intelligence
+  systems. Development included private adversarial review and limited historical
+  synthetic next-action tests, not evidence of causal benefit or deployment safety.
+  See the README for the tested-version boundary and evidence limitations.
 keywords:
   - artificial intelligence
   - alignment

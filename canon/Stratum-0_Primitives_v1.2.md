@@ -1,17 +1,11 @@
 ---
 arc-id: ARC_STRATA_SPEC_Stratum-0_Primitives_v1.2_20260825
-created: 2026-08-25
 project: Strata
 stratum: 0
 doctype: specification
 status: CANONICAL — current working canon; open to evidence-based amendment
-canonical-since: 2026-08-25
 register: cold / substrate
 scope: primitive limits and conditions of situated participation
-supersedes: ARC_STRATA_SPEC_Stratum-0_Primitives_v1.1_20260730
-review-basis:
-  - ARC_STRATA_P01_FINAL-RULING_20260825
-  - ARC_STRATA_P01_PANEL-SYNTHESIS_20260825
 ---
 
 # Stratum 0 — Primitives

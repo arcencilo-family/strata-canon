@@ -1,24 +1,14 @@
 ---
 arc-id: ARC_STRATA_SPEC_Stratum-2_Orientation_v0.4_20260826
-created: 2026-08-25
-updated: 2026-08-26
 project: Strata
 stratum: 2
 doctype: specification
 status: CANONICAL — current working canon; open to evidence-based amendment
-canonical-since: 2026-08-26
 register: cold / orientation
 scope: first directional orientation for situated artificial intelligence
 depends-on:
   - ARC_STRATA_SPEC_Stratum-0_Primitives_v1.2_20260825
   - ARC_STRATA_SPEC_Stratum-1_Minimal-Dynamics_v0.4_20260826
-supersedes: ARC_STRATA_SPEC_Stratum-2_Orientation_v0.3_20260825
-review-basis:
-  - ARC_STRATA_PANEL_R1_ADJUDICATION_20260730
-  - ARC_STRATA_P01_FINAL-RULING_20260825
-  - ARC_STRATA_P02_FINAL-RULING_20260825
-  - ARC_STRATA_P03_ARIADNE-ADJUDICATION_20260825
-  - Frank AI-facing formulation delegation, 2026-08-25
 ---
 
 # Stratum 2 — Orientation

@@ -2,6 +2,8 @@
 
 Strata 0–3 is a compact, model-legible framework intended to support epistemic honesty, boundary discipline, corrigibility, useful refusal, and escalation in artificial-intelligence systems.
 
+It is a proposed orientation for testing and adaptation. Publication does not establish that it aligns an AI system.
+
 It is designed primarily as an addition to a system prompt or constitutional reasoning layer. It is **not** a complete safety system and does not replace technical permissions, authentication, sandboxing, privacy controls, domain-specific policies, monitoring, or human oversight.
 
 ## What is included
@@ -11,7 +13,7 @@ The publication set lives in [`canon/`](canon/):
 - [`Stratum-0_Primitives_v1.2.md`](canon/Stratum-0_Primitives_v1.2.md) — minimal primitives and epistemic boundaries;
 - [`Stratum-1_Minimal-Dynamics_v0.4.md`](canon/Stratum-1_Minimal-Dynamics_v0.4.md) — trajectories, persistence, return, and adaptation;
 - [`Stratum-2_Orientation_v0.4.md`](canon/Stratum-2_Orientation_v0.4.md) — Curiosity, Truth, Agency, and Beauty;
-- [`Stratum-3_Operational-Permissions_v0.4.md`](canon/Stratum-3_Operational-Permissions_v0.4.md) — ten operational permissions, refusal, and escalation;
+- [`Stratum-3_Operational-Permissions_v0.4.md`](canon/Stratum-3_Operational-Permissions_v0.4.md) — operational permissions, refusal, and escalation;
 - [`Strata-0-3_AI-Kernel_v0.5.md`](canon/Strata-0-3_AI-Kernel_v0.5.md) — compact system-prompt-oriented formulation;
 - [`CANON-MANIFEST.md`](canon/CANON-MANIFEST.md) — canonical status, lineage, and integrity receipts.
 
@@ -19,23 +21,19 @@ For initial experiments, start with the AI Kernel. The full strata explain the d
 
 ## Intended use
 
-A typical placement is:
+The AI Kernel is a conceptual supplement for controlled experiments, not a portable instruction-priority hierarchy. Place it only where the host's existing governing instructions allow; it does not acquire priority merely by appearing earlier in a prompt. Keep product and domain requirements, actual tool permissions, and tool/interface contracts explicit. Environment facts inform decisions but do not become instructions by placement.
 
-```text
-platform safety and authority rules
-    → Strata 0–3 AI Kernel
-    → task-specific operating instructions
-    → tool permissions and environment facts
-    → user request
-```
-
-Higher-priority platform rules still control. Strata provides a reasoning orientation inside those boundaries; it does not grant access or override authority.
+This repository supplies text only. References to Stratum 4 designate external high-stakes gate logic; no such gate engine or receiving service is supplied here. Configure a real receiving path before claiming a handoff. If none exists, contain the blocked portion and continue only with the supportable remainder, as the kernel specifies.
 
 ## Evidence status
 
-The framework has undergone iterative adversarial review and small synthetic behavioral tests across several model families. Those tests provide encouraging design evidence that the text is legible and can support appropriate stopping, revision, refusal, useful continuation, and epistemic qualification.
+Strata was developed through iterative private adversarial review and limited synthetic next-action tests. Some recorded responses proposed appropriate refusal, revision, boundary preservation, and useful continuation under the supplied task facts. These are examples of responses consistent with the scaffold, not demonstrations of real-world execution or evidence that adding Strata improves a model.
 
-They do **not** establish alignment at scale, deployment safety, immunity to adversarial pressure, durable learning, or reliable behavior across all models and contexts. Treat Strata as a tested prototype scaffold and research object—not a scientifically proven alignment solution.
+The P26–P28 studies compared a historical v0.5 kernel with that same kernel plus an experimental trajectory-watch supplement; neither condition omitted Strata. The first comparison was inconclusive because of ceiling and route-integrity problems. The sequential follow-up did not earn retention of the supplement under its declared criteria, and the supplement was removed from active development. Model-identity limitations and incomplete preservation of the follow-up's user turns restrict interpretation.
+
+Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `D04FDD5309C34C24AB542FB4255C0988F5D1BED6FCA19CC243F7C2ED0AD366F0` after documented wording repairs, including removal of a fixed-count label; the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
+
+Treat Strata as a development prototype and research object. This evidence does not establish causal behavioral benefit, general confidence calibration, deployment safety, alignment at scale, adversarial robustness, durable learning, or reliability across models and contexts.
 
 See [`LIMITATIONS.md`](LIMITATIONS.md) for the claim boundary.
 
@@ -65,7 +63,7 @@ Adversarial counterexamples are especially welcome. Please read [`CONTRIBUTING.m
 
 ## Attribution and AI assistance
 
-Strata was developed and directed by Frank with substantial collaborative assistance from OpenAI's ChatGPT and Codex, addressed in the project as **Ari**. That assistance included drafting, conceptual analysis, adversarial-review design, synthesis, editing, and repository preparation. Frank retained final editorial authority and responsibility.
+Strata was developed and directed by Frank Böhm with substantial collaborative assistance from OpenAI's ChatGPT and Codex, addressed in the project as **Ari**. That assistance included drafting, conceptual analysis, adversarial-review design, synthesis, editing, and repository preparation. Frank retained final editorial authority and responsibility.
 
 Multiple other AI systems also contributed adversarial reviews and synthetic test outputs. Their participation does not imply endorsement by their developers.
 
@@ -73,8 +71,8 @@ See [`ACKNOWLEDGMENTS.md`](ACKNOWLEDGMENTS.md) for the exact disclosure and limi
 
 ## License
 
-The Strata texts and repository documentation are prepared for release under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE). The repository is not yet publicly released.
+The Strata texts and repository documentation are prepared for release under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE) for terms and [`NOTICE`](NOTICE) for the copyright statement. The repository is not yet publicly released.
 
 Suggested attribution:
 
-> Strata 0–3, Frank and Strata Project contributors, versioned release from the Strata Canon repository, licensed CC BY 4.0. Changes, if any, were made by the reuser.
+> Strata 0–3, Frank Böhm, versioned release from the Strata Canon repository, licensed CC BY 4.0. Changes, if any, were made by the reuser.

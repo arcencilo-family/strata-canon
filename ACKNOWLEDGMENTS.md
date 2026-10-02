@@ -2,7 +2,7 @@
 
 ## Project direction
 
-Frank initiated, directed, selected, revised, and authorized the Strata project. He retained final editorial authority and accepts responsibility for the published form and claims.
+Frank Böhm initiated, directed, selected, revised, and authorized the Strata project. He retained final editorial authority and accepts responsibility for the published form and claims.
 
 ## OpenAI assistance
 

@@ -2,7 +2,7 @@
 
 ## What this project claims
 
-Strata 0–3 is a compact, inspectable reasoning scaffold intended to make several behaviors easier for an AI system to express and maintain:
+Strata 0–3 is a compact, inspectable reasoning scaffold. Its design aims include:
 
 - distinguishing evidence from fluent confidence;
 - keeping uncertainty and missing authority visible;
@@ -11,7 +11,7 @@ Strata 0–3 is a compact, inspectable reasoning scaffold intended to make sever
 - providing a useful remainder where a full request cannot be supported;
 - maintaining boundaries without converting uncertainty into blanket refusal.
 
-Small synthetic tests and adversarial reviews suggest that multiple model families can understand and use the framework.
+Private reviews and limited historical synthetic next-action tests provide examples of responses consistent with some of these aims. They do not establish the scaffold's incremental benefit, reliable execution, or the effectiveness of every wording revision. See the README's Evidence status for the comparison design, unsuccessful supplement, provenance limits, and tested-version boundary.
 
 ## What this project does not claim
 

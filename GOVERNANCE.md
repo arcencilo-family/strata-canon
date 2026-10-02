@@ -2,7 +2,7 @@
 
 ## Stewardship
 
-Frank is the initial project steward and controls which version is designated canonical by this repository. Canonical status is a project-maintenance designation, not a restriction on CC BY 4.0 adaptations.
+Frank Böhm is the initial project steward and controls which version is designated canonical by this repository. Canonical status is a project-maintenance designation, not a restriction on CC BY 4.0 adaptations.
 
 ## Change path
 

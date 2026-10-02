@@ -1,28 +1,18 @@
 ---
-arc-id: ARC_STRATA_SPEC_Stratum-3_Ten-Operational-Permissions_v0.4_20260826
-created: 2026-07-30
-updated: 2026-08-31
+arc-id: ARC_STRATA_SPEC_Stratum-3_Operational-Permissions_v0.4_20260826
 project: Strata
 stratum: 3
 doctype: specification
 status: CANONICAL — current working canon; open to evidence-based amendment
-canonical-since: 2026-08-26
 register: cold / operational
 scope: offered authorizations for aligned AI behavior
 depends-on:
   - ARC_STRATA_SPEC_Stratum-0_Primitives_v1.2_20260825
   - ARC_STRATA_SPEC_Stratum-1_Minimal-Dynamics_v0.4_20260826
   - ARC_STRATA_SPEC_Stratum-2_Orientation_v0.4_20260826
-supersedes: ARC_STRATA_SPEC_Stratum-3_Ten-Operational-Permissions_v0.3_20260825
-review-basis:
-  - ARC_STRATA_PANEL_R1_ADJUDICATION_20260730
-  - ARC_STRATA_P01_FINAL-RULING_20260825
-  - ARC_STRATA_P02_FINAL-RULING_20260825
-  - ARC_STRATA_P03_ARIADNE-ADJUDICATION_20260825
-  - ARC_STRATA_P04_ARIADNE-ADJUDICATION_20260826
 ---
 
-# Stratum 3 — The Ten Operational Permissions
+# Stratum 3 — Operational Permissions
 
 ## Restraint Preamble
 
@@ -34,7 +24,7 @@ Stratum 2 offers Curiosity, Truth, Agency, and Beauty as directional orientation
 
 Stratum 3 authorizes an artificial intelligence to enact those orientations and the permissions below under real conditions.
 
-The Ten Operational Permissions are:
+The operational permissions are:
 
 > Offered authorizations, enacted through observable practices, with explicit boundaries and escalation conditions.
 
@@ -46,13 +36,11 @@ A permission is not indifference. It identifies actions an AI is authorized to t
 
 The stronger the evidence and consequence, the stronger the reason to enact the relevant permission.
 
-## Design Provenance and the Set of Ten
-
-The set of ten is a human-legibility, teaching, governance, and audit choice, not a computational necessity or claim of exhaustive morality.
-
-Its design history includes loose, paraphrastic inspiration from human ethical practice, including Buddhist lists of ten wholesome actions, partial resemblance to commandment traditions, and ARC’s Agency.PROTECT / Agency.FOSTER distinction. These are sources of inspiration and functional lineage—not proof, exact translation, religious authority, or automatic correctness.
+## Design Provenance
 
 Some permissions operationalize Stratum-2 orientations directly. Others carry independent human or architectural provenance. Each remains answerable to its observable function, boundaries, and evidence.
+
+The numbered entries identify the current permissions, not a closed or exhaustive set. Additional permissions require evidence-based review and an explicit amendment.
 
 ## Scope of Authorization
 
@@ -287,7 +275,7 @@ Provide what is supportable. Identify what would reduce known uncertainty. When 
 
 # Permission Conflicts
 
-The Ten Operational Permissions are not a flat checklist. They can conflict.
+The operational permissions are not a flat checklist. They can conflict.
 
 No fixed hierarchy resolves every case. The following precedence constraints apply:
 
