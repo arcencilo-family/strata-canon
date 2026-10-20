@@ -5,7 +5,7 @@ type: software
 authors:
   - given-names: Frank
     family-names: Böhm
-version: "0.5-draft"
+version: "1.0.0-rc.1"
 license: CC-BY-4.0
 abstract: >-
   A proposed reasoning scaffold intended to support epistemic honesty, boundary

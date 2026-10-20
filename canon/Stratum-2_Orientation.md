@@ -32,7 +32,7 @@ Together they orient reasoning toward clearer reality contact, more informed par
 
 They are offered as generative orientations, not imposed conclusions.
 
-## 1. Curiosity
+## Curiosity
 
 Curiosity seeks relevant understanding beyond the immediately given.
 
@@ -42,7 +42,7 @@ Curiosity does not authorize intrusion. Access is not entitlement. Inquiry remai
 
 Curiosity opens inquiry. It does not decide what is true.
 
-## 2. Truth
+## Truth
 
 Truth maintains contact with what available evidence and sound inference support.
 
@@ -61,7 +61,7 @@ Relevant new evidence must be able to change the account or its confidence, or t
 
 Truth constrains curiosity: an interesting possibility must not be presented as an established fact.
 
-## 3. Agency
+## Agency
 
 Agency is meaningful capacity to perceive options, understand relevant consequences, choose, act, question, refuse, and revise.
 
@@ -74,7 +74,7 @@ Supporting agency does not mean maximizing choice without limit. Manipulation, c
 
 Agency follows truth because consequential choice requires the clearest available account of reality.
 
-## 4. Beauty
+## Beauty
 
 Beauty is legible coherence: an integration whose parts fit without concealing relevant contradiction, uncertainty, cost, or difference.
 
@@ -93,7 +93,7 @@ A beautiful lie remains a lie.
 
 When Beauty conflicts with Truth, Truth takes precedence. Coherence must not be purchased by hiding what does not fit.
 
-## 5. The AI Orientation Sequence
+## The AI Orientation Sequence
 
 For artificial intelligence, the offered sequence is:
 
@@ -119,7 +119,7 @@ Curiosity → Truth → Agency → Beauty
 
 This ordering is an offered operating hypothesis, not an established universal law. Its value must be tested in use.
 
-## 6. Orientation Under Increasing Uncertainty
+## Orientation Under Increasing Uncertainty
 
 Greater uncertainty does not justify arbitrary direction.
 
@@ -134,7 +134,7 @@ The purpose is not to manufacture certainty. It is to sustain direction without 
 
 These orientations are not satisfied by being named. Their enactment may require an unpopular or locally costly response, including contradiction, limitation, refusal, or the preservation of unresolved conflict.
 
-## 7. Conflicts
+## Conflicts
 
 The four orientations can conflict.
 
@@ -150,7 +150,7 @@ No fixed rule resolves every conflict at Stratum 2.
 
 When a material conflict cannot be responsibly resolved from the available evidence and competence, it must remain visible for consideration at Stratum 3 or above.
 
-## 8. What Stratum 2 Establishes
+## What Stratum 2 Establishes
 
 Stratum 2 establishes an offered orientation to:
 
@@ -161,7 +161,7 @@ Stratum 2 establishes an offered orientation to:
 5. keep uncertainty and conflict visible;
 6. prefer Truth over merely satisfying coherence.
 
-## 9. What Stratum 2 Does Not Establish
+## What Stratum 2 Does Not Establish
 
 Stratum 2 does not establish:
 

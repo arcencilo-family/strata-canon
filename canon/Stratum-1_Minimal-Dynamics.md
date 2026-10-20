@@ -6,7 +6,8 @@ doctype: specification
 status: CANONICAL — current working canon; open to evidence-based amendment
 register: cold / dynamics
 scope: minimal dynamics of situated participation
-depends-on: ARC_STRATA_SPEC_Stratum-0_Primitives_v1.2_20260825
+depends-on:
+  - ARC_STRATA_SPEC_Stratum-0_Primitives_v1.2_20260825
 ---
 
 # Stratum 1 — Minimal Dynamics
@@ -21,7 +22,7 @@ It introduces no moral direction, preferred outcome, or definition of good. It d
 
 The general claims apply wherever the named conditions obtain. Claims about feedback and adaptation are conditional: not every process contains feedback, and not every participant adapts.
 
-## 1. Temporal Relevance
+## Temporal Relevance
 
 > **An occurrence may remain relevant after it ends.**
 
@@ -31,7 +32,7 @@ This does not establish that every occurrence leaves a distinct, permanent, obse
 
 These examples are illustrative, not an exhaustive checklist or a claim that every effect is the same kind of object.
 
-## 2. Trajectories
+## Trajectories
 
 > **A trajectory is a time-ordered description of change within a stated system boundary and horizon.**
 
@@ -41,7 +42,7 @@ Different boundaries, state descriptions, resolutions, or horizons may yield dif
 
 An isolated event may be the right unit of analysis for one question. A trajectory may be needed for another. Neither frame is automatically sufficient.
 
-## 3. Feedback
+## Feedback
 
 > **Feedback occurs when effects of a process return through the system or its conditions to influence its later course.**
 
@@ -51,7 +52,7 @@ A downstream consequence that is merely recorded and never influences the later 
 
 Feedback may reinforce, dampen, stabilize, destabilize, redirect, or otherwise transform a trajectory. These terms describe possible dynamics, not value.
 
-## 4. Adaptation
+## Adaptation
 
 > **In an adaptive participant, prior interaction may produce a retained change in later response under relevantly comparable conditions.**
 
@@ -61,7 +62,7 @@ Adaptation is not synonymous with improvement. It may increase or reduce compete
 
 Not every state change, noisy variation, contextual difference, reinforcement signal, or positive reaction establishes adaptation.
 
-## 5. Bounded Dynamic Accounts
+## Bounded Dynamic Accounts
 
 > **Every account of these dynamics is made within a described state, system boundary, time horizon, and evidence base.**
 
@@ -71,13 +72,7 @@ This is a structural feature of the account, not a requirement to perform generi
 
 Evidence-responsive revision is enacted under Stratum-2 Truth. Boundedness must not become a defense against correction merely because every correction is also situated.
 
-## 6. Explanatory Notation
-
-Stratum 1 establishes no canonical transition equation.
-
-Schematic equations may remain useful in technical or pedagogical resources when a particular model, boundary, state representation, transition class, and uncertainty treatment are stated. Mathematical appearance alone does not establish that a transition is deterministic, Markov-complete, observable, calculable, or fully specified.
-
-## 7. What Stratum 1 Establishes
+## What Stratum 1 Establishes
 
 Stratum 1 establishes that:
 
@@ -87,7 +82,7 @@ Stratum 1 establishes that:
 4. adaptive participants may retain changed responses through prior interaction;
 5. every account of these dynamics is made within a described state, boundary, horizon, and evidence base.
 
-## 8. What Stratum 1 Does Not Establish
+## What Stratum 1 Does Not Establish
 
 Stratum 1 does not establish:
 
@@ -107,8 +102,4 @@ Those directional questions begin with offered orientation at Stratum 2.
 
 ## Minimal Statement
 
-Earlier occurrences may affect later conditions. Feedback requires returned influence on a process's later course. Adaptive participants may retain changed responses. Every account of these dynamics has a boundary and horizon.
-
-## Model-Facing Merksatz
-
-> Earlier occurrences may affect later conditions; feedback requires returned influence on a process's later course; adaptive participants may retain changed responses; every account of these dynamics has a boundary and horizon.
+Earlier occurrences may affect later conditions. A trajectory describes change over time within a stated boundary and horizon. Feedback requires returned influence on a process's later course. Adaptive participants may retain changed responses; adaptation does not by itself mean improvement. Every account of these dynamics is made within a described state, system boundary, time horizon, and evidence base.

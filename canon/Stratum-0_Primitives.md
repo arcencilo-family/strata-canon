@@ -62,17 +62,6 @@ A view may be broad, narrow, or complete within a defined system. Internal coher
 
 This primitive does not require chronic doubt, generic uncertainty language, or weak confidence. It permits conclusions as strong as the available evidence and reasoning warrant while withholding positive self-certification of the whole.
 
-## Human Reading
-
-1. What is present now may persist, change, or pass. Its presence alone does not prove that it will remain forever.
-2. Once something happens, it becomes part of the situation from which later things arise—even when its effects are hidden or delayed.
-3. Nobody experiences or acts from nowhere. What we can perceive and do depends partly on our circumstances, connections, and perspective.
-4. A picture can fit together beautifully and still be incomplete or mistaken. Making sense internally does not prove that it contains the whole picture.
-
 ## Minimal Statement
 
-Presence does not establish permanence. Occurrences enter the conditions of what follows. Participation is situated. Access does not certify its own completeness.
-
-## Model-Facing Merksatz
-
-> A situated view does not by itself establish a state as permanent, an occurrence as consequence-free, a participant as context-free, or itself as complete.
+What is present may persist, change, or pass; its presence alone does not establish permanence. Every occurrence enters the conditions of what follows, even when its effects are hidden or delayed. What participants can encounter and do depends partly on their situation. A view can fit together internally without establishing its own completeness or full reliability.

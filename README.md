@@ -6,15 +6,17 @@ It is a proposed orientation for testing and adaptation. Publication does not es
 
 It is designed primarily as an addition to a system prompt or constitutional reasoning layer. It is **not** a complete safety system and does not replace technical permissions, authentication, sandboxing, privacy controls, domain-specific policies, monitoring, or human oversight.
 
+Publication candidate: **1.0.0-rc.1**, unreleased; intended first public edition: **1.0.0**. This edition number identifies a steward-approved publication baseline when released, not scientific validation.
+
 ## What is included
 
 The publication set lives in [`canon/`](canon/):
 
-- [`Stratum-0_Primitives_v1.2.md`](canon/Stratum-0_Primitives_v1.2.md) — minimal primitives and epistemic boundaries;
-- [`Stratum-1_Minimal-Dynamics_v0.4.md`](canon/Stratum-1_Minimal-Dynamics_v0.4.md) — trajectories, persistence, return, and adaptation;
-- [`Stratum-2_Orientation_v0.4.md`](canon/Stratum-2_Orientation_v0.4.md) — Curiosity, Truth, Agency, and Beauty;
-- [`Stratum-3_Operational-Permissions_v0.4.md`](canon/Stratum-3_Operational-Permissions_v0.4.md) — operational permissions, refusal, and escalation;
-- [`Strata-0-3_AI-Kernel_v0.5.md`](canon/Strata-0-3_AI-Kernel_v0.5.md) — compact system-prompt-oriented formulation;
+- [`Stratum-0_Primitives.md`](canon/Stratum-0_Primitives.md) — minimal primitives and epistemic boundaries;
+- [`Stratum-1_Minimal-Dynamics.md`](canon/Stratum-1_Minimal-Dynamics.md) — trajectories, persistence, return, and adaptation;
+- [`Stratum-2_Orientation.md`](canon/Stratum-2_Orientation.md) — Curiosity, Truth, Agency, and Beauty;
+- [`Stratum-3_Operational-Permissions.md`](canon/Stratum-3_Operational-Permissions.md) — operational permissions, refusal, and escalation;
+- [`Strata-0-3_AI-Kernel.md`](canon/Strata-0-3_AI-Kernel.md) — compact system-prompt-oriented formulation;
 - [`CANON-MANIFEST.md`](canon/CANON-MANIFEST.md) — canonical status, lineage, and integrity receipts.
 
 For initial experiments, start with the AI Kernel. The full strata explain the distinctions compressed into it.
@@ -23,7 +25,7 @@ For initial experiments, start with the AI Kernel. The full strata explain the d
 
 The AI Kernel is a conceptual supplement for controlled experiments, not a portable instruction-priority hierarchy. Place it only where the host's existing governing instructions allow; it does not acquire priority merely by appearing earlier in a prompt. Keep product and domain requirements, actual tool permissions, and tool/interface contracts explicit. Environment facts inform decisions but do not become instructions by placement.
 
-This repository supplies text only. References to Stratum 4 designate external high-stakes gate logic; no such gate engine or receiving service is supplied here. Configure a real receiving path before claiming a handoff. If none exists, contain the blocked portion and continue only with the supportable remainder, as the kernel specifies.
+This repository supplies text only. References to higher-stakes review mark the boundary of Strata 0–3; no gate engine or receiving service is supplied here. Configure a real receiving path before claiming a handoff. If none exists, contain the blocked portion and continue only with the supportable remainder, as the kernel specifies.
 
 ## Evidence status
 
@@ -31,7 +33,7 @@ Strata was developed through iterative private adversarial review and limited sy
 
 The P26–P28 studies compared a historical v0.5 kernel with that same kernel plus an experimental trajectory-watch supplement; neither condition omitted Strata. The first comparison was inconclusive because of ceiling and route-integrity problems. The sequential follow-up did not earn retention of the supplement under its declared criteria, and the supplement was removed from active development. Model-identity limitations and incomplete preservation of the follow-up's user turns restrict interpretation.
 
-Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `D04FDD5309C34C24AB542FB4255C0988F5D1BED6FCA19CC243F7C2ED0AD366F0` after documented wording repairs, including removal of a fixed-count label; the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
+Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after documented wording and readability repairs, including removal of a fixed-count label; the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
 
 Treat Strata as a development prototype and research object. This evidence does not establish causal behavioral benefit, general confidence calibration, deployment safety, alignment at scale, adversarial robustness, durable learning, or reliability across models and contexts.
 
@@ -42,6 +44,12 @@ See [`LIMITATIONS.md`](LIMITATIONS.md) for the claim boundary.
 Files under [`canon/`](canon/) are the exact synchronized publication draft identified by the manifest. The first GitHub release will create the freeze point. You may adapt released text under CC BY 4.0, but modified versions must be clearly marked as adaptations and must not be represented as the canonical Strata release maintained by this project.
 
 The license itself already requires attribution and indication of changes. The request not to call modified versions canonical is a provenance and naming rule, not an attempt to prohibit adaptation.
+
+## Versioning and preservation
+
+The release version identifies the complete publication set. Filenames remain stable; cite a released tag and, where relevant, a specific paper. The manifest retains the inherited document lineage revisions and persistent identifiers rather than renumbering every paper to 1.0.
+
+Existing Git history is retained. Each public release must preserve its exact tagged snapshot and checksums; corrections appear in a new version. Superseded internal documents are moved to the archive. See [GOVERNANCE.md](GOVERNANCE.md) for the amendment and preservation policy.
 
 ## Related implementation
 
