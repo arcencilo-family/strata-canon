@@ -17,7 +17,7 @@ Consensus, model praise, lineage, and elegance may inform inquiry but do not det
 
 ## Publication versions and preservation
 
-Strata and BES are released independently in separate repositories. Strata's intended first public edition is 1.0.0; the current unreleased candidate is 1.0.0-rc.1. An edition number marks an approved publication baseline, not validation of alignment, safety, or behavioral benefit.
+Strata and BES are released independently in separate repositories. Strata's first public edition is 1.0.0 (2026-10-21). An edition number marks an approved publication baseline, not validation of alignment, safety, or behavioral benefit.
 
 The Strata edition covers the complete canon set. Keep filenames stable and identify each released edition by a permanent Git tag, release notes, citation metadata, and manifest checksums. Retain the papers' inherited lineage revisions and persistent identifiers. Do not renumber historical documents merely to match the publication edition.
 
@@ -25,7 +25,7 @@ Retain existing Git history after disclosure review. If a future public export n
 
 Never rewrite released history, move a released tag, or replace a released asset in place. Publish corrections as a new version and retain superseded releases. Move superseded internal files and completed records into the archive.
 
-BES follows its own software versioning policy and is initially planned as 0.1.0. Its release number does not have to match Strata's.
+BES follows its own software versioning policy and has first public version 0.1.0. Its release number does not have to match Strata's.
 
 ## Forks and adaptations
 

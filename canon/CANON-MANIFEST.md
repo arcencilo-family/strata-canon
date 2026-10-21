@@ -5,8 +5,8 @@ doctype: canon manifest — POINTER AND RECEIPT ONLY
 status: CANONICAL
 register: compact / operational
 file-limit: six files total including this manifest
-publication-version: 1.0.0-rc.1
-publication-target: 1.0.0
+publication-version: 1.0.0
+publication-date: 2026-10-21
 ---
 
 # Strata 0–3 — Canon Manifest
@@ -23,7 +23,7 @@ Drafts, panels, adjudications, handoffs, pedagogical corpora, and build processe
 
 ## Current canon
 
-Publication candidate: **1.0.0-rc.1**, unreleased. The intended first public edition is **1.0.0**. The lineage revisions below retain the documents' development history; they are not the edition number of the whole publication. Stable filenames are used across editions.
+Publication edition: **1.0.0** (2026-10-21). The lineage revisions below retain the documents' development history; they are not the edition number of the whole publication. Stable filenames are used across editions.
 
 | Layer | File | Lineage revision | Bytes | SHA-256 |
 |---|---|---:|---:|---|
@@ -49,9 +49,9 @@ AI kernel v0.5 — compact model-facing expression of all four
 
 ## Authority and amendment
 
-These files are the current pre-publication working canon, not declarations of final truth. They remain open to evidence-based scrutiny and steward-authorized repair.
+These files are the Strata 1.0.0 publication canon, not declarations of final truth. They remain open to evidence-based scrutiny and steward-authorized repair.
 
-Before the first public GitHub release, an explicitly authorized publication-draft repair may update the working files in place, provided both the internal canon and publication draft remain byte-identical and all receipts are refreshed. The first public release creates the freeze point. After that freeze, every content amendment requires a new publication version and preservation of the superseded release. Filenames remain stable; release tags and archived snapshots identify editions. Released tags and assets must not be rewritten or replaced.
+This edition is identified by the `v1.0.0` release tag and its preserved snapshot. Every content amendment requires a new publication version and preservation of the superseded release. The active internal and publication canon copies remain synchronized with refreshed receipts. Filenames remain stable; release tags and archived snapshots identify editions. Released tags and assets must not be rewritten or replaced.
 
 After the public freeze, an amendment requires:
 
@@ -62,6 +62,6 @@ After the public freeze, an amendment requires:
 5. hash verification;
 6. archival preservation of the superseded version and completed package.
 
-The names of the project, strata, permissions, and repositories remain pending until the public freeze. Renaming before that point must still be explicit and receipt-tracked.
+The names of the project, strata, permissions, and repositories are identified by this edition. Later renaming must be explicit and receipt-tracked.
 
 Development history is summarized in the repository changelog; the underlying review records remain in the internal archive. Existing Git histories and document identifiers are retained. Earlier files and records are moved into the archive when superseded, not discarded.

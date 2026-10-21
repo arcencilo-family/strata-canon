@@ -5,8 +5,10 @@ type: software
 authors:
   - given-names: Frank
     family-names: Böhm
-version: "1.0.0-rc.1"
+version: "1.0.0"
 license: CC-BY-4.0
+repository-code: "https://github.com/arcencilo-family/strata-canon"
+date-released: "2026-10-21"
 abstract: >-
   A proposed reasoning scaffold intended to support epistemic honesty, boundary
   discipline, corrigibility, useful refusal, and escalation in artificial-intelligence

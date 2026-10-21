@@ -6,7 +6,7 @@ It is a proposed orientation for testing and adaptation. Publication does not es
 
 It is designed primarily as an addition to a system prompt or constitutional reasoning layer. It is **not** a complete safety system and does not replace technical permissions, authentication, sandboxing, privacy controls, domain-specific policies, monitoring, or human oversight.
 
-Publication candidate: **1.0.0-rc.1**, unreleased; intended first public edition: **1.0.0**. This edition number identifies a steward-approved publication baseline when released, not scientific validation.
+Publication edition: **1.0.0** (2026-10-21). This edition identifies a steward-approved publication baseline, not scientific validation.
 
 ## What is included
 
@@ -33,7 +33,7 @@ Strata was developed through iterative private adversarial review and limited sy
 
 The P26–P28 studies compared a historical v0.5 kernel with that same kernel plus an experimental trajectory-watch supplement; neither condition omitted Strata. The first comparison was inconclusive because of ceiling and route-integrity problems. The sequential follow-up did not earn retention of the supplement under its declared criteria, and the supplement was removed from active development. Model-identity limitations and incomplete preservation of the follow-up's user turns restrict interpretation.
 
-Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after the wording repairs, permission renumbering, domain reorder, and boundary-rule changes recorded in [CHANGELOG.md](CHANGELOG.md); the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
+Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. This edition uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after the wording repairs, permission renumbering, domain reorder, and boundary-rule changes recorded in [CHANGELOG.md](CHANGELOG.md); the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
 
 Treat Strata as a development prototype and research object. This evidence does not establish causal behavioral benefit, general confidence calibration, deployment safety, alignment at scale, adversarial robustness, durable learning, or reliability across models and contexts.
 
@@ -41,7 +41,7 @@ See [`LIMITATIONS.md`](LIMITATIONS.md) for the claim boundary.
 
 ## Canon, versions, and adaptations
 
-The [manifest](canon/CANON-MANIFEST.md) identifies the synchronized publication draft. Release versions cover the complete set; filenames remain stable and document lineage revisions are retained. Cite an exact released tag and, where relevant, a paper. The first public release freezes that snapshot; corrections require a new version, preserved history, and refreshed checksums. See [GOVERNANCE.md](GOVERNANCE.md).
+The [manifest](canon/CANON-MANIFEST.md) identifies the files in this publication edition. Release versions cover the complete set; filenames remain stable and document lineage revisions are retained. Cite an exact released tag and, where relevant, a paper. The first public release freezes that snapshot; corrections require a new version, preserved history, and refreshed checksums. See [GOVERNANCE.md](GOVERNANCE.md).
 
 You may adapt the text under CC BY 4.0 with attribution and identification of changes. Clearly distinguish adaptations from this project's canonical release. This provenance convention does not prohibit licensed adaptations.
 
@@ -55,7 +55,7 @@ The projects are complementary but independent:
 - BES supplies a skeptical reference mechanism for evaluating evidence claims.
 - Neither proves or implements the other.
 
-Until public GitHub URLs are assigned, the local sibling is `../bes-log-learn-reference/`.
+See [BES on GitHub](https://github.com/arcencilo-family/bes-log-learn-reference) and its independently versioned [0.1.0 release](https://github.com/arcencilo-family/bes-log-learn-reference/releases/tag/v0.1.0).
 
 ## Contributing
 
@@ -73,7 +73,7 @@ See [`ACKNOWLEDGMENTS.md`](ACKNOWLEDGMENTS.md) for the exact disclosure and limi
 
 ## License
 
-The Strata texts and repository documentation are prepared for release under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE) for terms and [`NOTICE`](NOTICE) for the copyright statement. The repository is not yet publicly released.
+The Strata texts and repository documentation are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE`](LICENSE) for terms and [`NOTICE`](NOTICE) for the copyright statement.
 
 Suggested attribution:
 
