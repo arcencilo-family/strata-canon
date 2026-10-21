@@ -29,13 +29,13 @@ Evidence status and limitations:
 
 ## Change rules
 
-- Do not edit a released canonical file in place. Propose a versioned successor.
+- Preserve released tags and snapshots. Propose changes to the stable filenames for a new publication version; do not replace the contents of a released edition.
 - Mark every adaptation and preserve its source version.
 - Keep descriptive, normative, empirical, and metaphorical claims distinct.
 - Do not treat lineage, elegance, consensus, or model praise as validation.
 - Test useful continuation as well as stopping and refusal.
 - Judge recognition from subsequent conduct.
-- Preserve superseded versions when practical; they may contain useful design evidence.
+- Preserve superseded versions through release tags and archives; they may contain useful design evidence.
 - A valid repair may be deletion.
 
 ## Pull requests

@@ -16,4 +16,4 @@ Provide counterexamples, behavioral checks, negative controls, and limitations.
 - [ ] I have authority to license my contribution under CC BY 4.0.
 - [ ] I included no private, proprietary, or personal material.
 - [ ] I considered the strongest objection to my proposal.
-- [ ] I did not edit a released canonical file in place.
+- [ ] I preserved released tags and snapshots and propose changes for a new publication version.

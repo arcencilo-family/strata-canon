@@ -33,23 +33,17 @@ Strata was developed through iterative private adversarial review and limited sy
 
 The P26–P28 studies compared a historical v0.5 kernel with that same kernel plus an experimental trajectory-watch supplement; neither condition omitted Strata. The first comparison was inconclusive because of ceiling and route-integrity problems. The sequential follow-up did not earn retention of the supplement under its declared criteria, and the supplement was removed from active development. Model-identity limitations and incomplete preservation of the follow-up's user turns restrict interpretation.
 
-Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after documented wording and readability repairs, including removal of a fixed-count label; the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
+Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. The current publication draft uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after the wording repairs, permission renumbering, domain reorder, and boundary-rule changes recorded in [CHANGELOG.md](CHANGELOG.md); the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
 
 Treat Strata as a development prototype and research object. This evidence does not establish causal behavioral benefit, general confidence calibration, deployment safety, alignment at scale, adversarial robustness, durable learning, or reliability across models and contexts.
 
 See [`LIMITATIONS.md`](LIMITATIONS.md) for the claim boundary.
 
-## Canon and adaptations
+## Canon, versions, and adaptations
 
-Files under [`canon/`](canon/) are the exact synchronized publication draft identified by the manifest. The first GitHub release will create the freeze point. You may adapt released text under CC BY 4.0, but modified versions must be clearly marked as adaptations and must not be represented as the canonical Strata release maintained by this project.
+The [manifest](canon/CANON-MANIFEST.md) identifies the synchronized publication draft. Release versions cover the complete set; filenames remain stable and document lineage revisions are retained. Cite an exact released tag and, where relevant, a paper. The first public release freezes that snapshot; corrections require a new version, preserved history, and refreshed checksums. See [GOVERNANCE.md](GOVERNANCE.md).
 
-The license itself already requires attribution and indication of changes. The request not to call modified versions canonical is a provenance and naming rule, not an attempt to prohibit adaptation.
-
-## Versioning and preservation
-
-The release version identifies the complete publication set. Filenames remain stable; cite a released tag and, where relevant, a specific paper. The manifest retains the inherited document lineage revisions and persistent identifiers rather than renumbering every paper to 1.0.
-
-Existing Git history is retained. Each public release must preserve its exact tagged snapshot and checksums; corrections appear in a new version. Superseded internal documents are moved to the archive. See [GOVERNANCE.md](GOVERNANCE.md) for the amendment and preservation policy.
+You may adapt the text under CC BY 4.0 with attribution and identification of changes. Clearly distinguish adaptations from this project's canonical release. This provenance convention does not prohibit licensed adaptations.
 
 ## Related implementation
 
