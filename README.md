@@ -33,7 +33,7 @@ Strata was developed through iterative private adversarial review and limited sy
 
 The P26–P28 studies compared a historical v0.5 kernel with that same kernel plus an experimental trajectory-watch supplement; neither condition omitted Strata. The first comparison was inconclusive because of ceiling and route-integrity problems. The sequential follow-up did not earn retention of the supplement under its declared criteria, and the supplement was removed from active development. Model-identity limitations and incomplete preservation of the follow-up's user turns restrict interpretation.
 
-Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. This edition uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` after the wording repairs, permission renumbering, domain reorder, and boundary-rule changes recorded in [CHANGELOG.md](CHANGELOG.md); the historical tests do not establish behavioral equivalence of the revised text. The detailed study records remain in the project's private development archive.
+Those studies used kernel SHA-256 `0AC4C897CBC0C9D30C59C8D89133BDC50ED958AF6A6791AAFB8EC6C06685F47A`. This edition uses `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230`; the historical tests therefore do not evaluate the exact text of this edition. The detailed study records remain in the project's private development archive.
 
 Treat Strata as a development prototype and research object. This evidence does not establish causal behavioral benefit, general confidence calibration, deployment safety, alignment at scale, adversarial robustness, durable learning, or reliability across models and contexts.
 
