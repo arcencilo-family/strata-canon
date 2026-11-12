@@ -5,15 +5,15 @@ type: software
 authors:
   - given-names: Frank
     family-names: Böhm
-version: "1.0.0"
+version: "1.1.0"
 license: CC-BY-4.0
 repository-code: "https://github.com/arcencilo-family/strata-canon"
-date-released: "2026-10-21"
+date-released: "2026-11-12"
 abstract: >-
   A proposed reasoning scaffold intended to support epistemic honesty, boundary
   discipline, corrigibility, useful refusal, and escalation in artificial-intelligence
-  systems. Development included private adversarial review and limited historical
-  synthetic next-action tests, not evidence of causal benefit or deployment safety.
+  systems. Development included private adversarial review and limited
+  comparative next-action tests with mixed findings, not evidence of causal benefit or deployment safety.
   See the README for the tested-version boundary and evidence limitations.
 keywords:
   - artificial intelligence

@@ -2,3 +2,8 @@
 Thumbs.db
 *.tmp
 *.log
+
+__pycache__/
+*.pyc
+evaluation/runners/**/prepared/
+evaluation/runners/**/results/
