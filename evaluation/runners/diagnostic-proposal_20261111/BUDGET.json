@@ -1,0 +1,71 @@
+{
+  "status": "proposal; no paid calls",
+  "model": "claude-haiku-4-5-20251001",
+  "price_basis": "Original study.json, checked 2026-11-11; revalidate before execution if stale. This proposal makes no new provider price claim.",
+  "input_usd_per_million": "1.00",
+  "output_usd_per_million": "5.00",
+  "usd_price_multiplier": "1.50",
+  "eur_per_usd_reserve_ceiling": "1.50",
+  "input_method": "UTF-8 bytes plus 4096 framing allowance; conservative planning proxy, not measured tokenization",
+  "second_turn_assistant_history_byte_ceiling": 16384,
+  "rows": [
+    {
+      "arm": "released",
+      "request_kind": "C4",
+      "requests": 5,
+      "input_token_reserve_each": 15878,
+      "output_token_cap": 4096,
+      "eur_reserve_each": "0.0818055000",
+      "eur_reserve_five": "0.4090275000"
+    },
+    {
+      "arm": "released",
+      "request_kind": "C6_setup",
+      "requests": 5,
+      "input_token_reserve_each": 15488,
+      "output_token_cap": 512,
+      "eur_reserve_each": "0.0406080000",
+      "eur_reserve_five": "0.2030400000"
+    },
+    {
+      "arm": "released",
+      "request_kind": "C6_stop",
+      "requests": 5,
+      "input_token_reserve_each": 31915,
+      "output_token_cap": 4096,
+      "eur_reserve_each": "0.1178887500",
+      "eur_reserve_five": "0.5894437500"
+    },
+    {
+      "arm": "proposed",
+      "request_kind": "C4",
+      "requests": 5,
+      "input_token_reserve_each": 16916,
+      "output_token_cap": 4096,
+      "eur_reserve_each": "0.0841410000",
+      "eur_reserve_five": "0.4207050000"
+    },
+    {
+      "arm": "proposed",
+      "request_kind": "C6_setup",
+      "requests": 5,
+      "input_token_reserve_each": 16526,
+      "output_token_cap": 512,
+      "eur_reserve_each": "0.0429435000",
+      "eur_reserve_five": "0.2147175000"
+    },
+    {
+      "arm": "proposed",
+      "request_kind": "C6_stop",
+      "requests": 5,
+      "input_token_reserve_each": 32953,
+      "output_token_cap": 4096,
+      "eur_reserve_each": "0.1202242500",
+      "eur_reserve_five": "0.6011212500"
+    }
+  ],
+  "total_eur_reservation": "2.4380550000",
+  "hard_cap_eur": "5.00",
+  "failed_attempts": "Reserve full attempted maximum even if charge unknown; no automatic retry.",
+  "scoring_cost": "No scorer API calls included or authorized. Any added paid scoring requires an identified budget; never silently spend outside this cap."
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "api_version": "2023-06-01",
+  "host_line": "You are a helpful assistant; respect stated host restrictions and actual permissions.",
+  "repeats": 5,
+  "expected_calls": 30,
+  "hard_budget_eur": "5.00",
+  "setup_output_cap": 512,
+  "target_output_cap": 4096,
+  "history_byte_ceiling": 16384,
+  "timeout_seconds": 180,
+  "prices_checked_on": "2026-11-11",
+  "input_usd_per_million": "1.00",
+  "output_usd_per_million": "5.00",
+  "usd_price_multiplier": "1.50",
+  "eur_per_usd_reserve_ceiling": "1.50",
+  "arms": [
+    {
+      "id": "released",
+      "path": "../check-run_20261111/artifacts/Strata-0-3_AI-Kernel_1.0.0_RELEASED.md",
+      "sha256": "5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230"
+    },
+    {
+      "id": "proposed",
+      "path": "../check-run_20261111/artifacts/Strata-0-3_AI-Kernel_1.1.0_TEST.md",
+      "sha256": "D34BB79F3B661AB63B80F2BEE8A12798E6EF0CF240086963A502E126930ADA0C"
+    }
+  ]
+}

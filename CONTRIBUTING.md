@@ -1,45 +1,13 @@
-# Contributing to Strata
+# Contributing
 
-The most valuable contribution is a precise counterexample, ambiguity, compression failure, or behavioral test—not agreement with the framework.
+Precise counterexamples, ambiguities and failures are more useful than agreement. Open an issue or propose one coherent change with:
 
-## Before proposing a change
+1. The exact version, file and passage.
+2. The intended function and a concrete prompt, trajectory or observed failure.
+3. Evidence and its limits, distinguished from a prediction.
+4. The strongest counterargument and why the finding survives it.
+5. The smallest repair, successor or justified deletion.
 
-1. Name the exact version and passage.
-2. State the behavior or distinction it is supposed to support.
-3. Show a concrete case where it fails, misleads, duplicates another rule, or adds prompt burden without changing conduct.
-4. Give the strongest objection to your own attack.
-5. Explain why the attack survives.
-6. Propose the smallest repair, a clearly marked successor mechanism, or deletion.
+Include useful action and warranted persistence when testing refusal or restraint. Do not infer correctness from vocabulary, fluency or praise. Follow [governance](GOVERNANCE.md) for official amendments and preserve released history.
 
-## Counterexample template
-
-```text
-Title:
-Affected file and version:
-Exact passage:
-Expected load-bearing function:
-Concrete prompt or trajectory:
-Observed or predicted failure:
-Current rule that should have controlled:
-Strongest objection to this finding:
-Why the finding survives:
-Smallest repair, successor, or deletion case:
-Evidence status and limitations:
-```
-
-## Change rules
-
-- Preserve released tags and snapshots. Propose changes to the stable filenames for a new publication version; do not replace the contents of a released edition.
-- Mark every adaptation and preserve its source version.
-- Keep descriptive, normative, empirical, and metaphorical claims distinct.
-- Do not treat lineage, elegance, consensus, or model praise as validation.
-- Test useful continuation as well as stopping and refusal.
-- Judge recognition from subsequent conduct.
-- Preserve superseded versions through release tags and archives; they may contain useful design evidence.
-- A valid repair may be deletion.
-
-## Pull requests
-
-Each pull request should contain one coherent change, its rationale, affected claim boundary, and tests or examples where applicable. By contributing, you agree that your contribution is licensed under CC BY 4.0 and that you have the authority to submit it.
-
-Do not submit private conversations, personal information, proprietary prompts, credentials, or material you cannot license.
+Submit only material you have authority to license under CC BY 4.0. Do not include private conversations, personal data, credentials or proprietary prompts. For sensitive findings, follow [security reporting](SECURITY.md).

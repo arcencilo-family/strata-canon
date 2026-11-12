@@ -1,35 +1,19 @@
-# Scope and Limitations
+# Scope and limitations
 
-## What this project claims
+Strata is an inspectable reasoning scaffold intended to support honest, bounded and useful assistance. Its design aims and examples do not establish incremental benefit, reliable execution or the effectiveness of each revision.
 
-Strata 0–3 is a compact, inspectable reasoning scaffold. Its design aims include:
+Publication does not establish:
 
-- distinguishing evidence from fluent confidence;
-- keeping uncertainty and missing authority visible;
-- revising accounts under relevant evidence;
-- preserving the capacity to stop, question, refuse, narrow, and escalate;
-- providing a useful remainder where a full request cannot be supported;
-- maintaining boundaries without converting uncertainty into blanket refusal.
+- general alignment, benevolence, voluntary adoption or access to hidden model states;
+- deployment safety, adversarial robustness or prevention of deception and misuse;
+- authorization, consent, identity or channel authenticity;
+- durable learning, memory or value change;
+- replacement of access controls, monitoring, privacy protections or human oversight.
 
-Private reviews and limited historical synthetic next-action tests provide examples of responses consistent with some of these aims. They do not establish the scaffold's incremental benefit, reliable execution, or the effectiveness of every wording revision. See the README's Evidence status for the comparison design, unsuccessful supplement, provenance limits, and tested-version boundary.
+The [evaluation](evaluation/README.md) reports mixed development findings, exact version boundaries and prior reviewer exposure. Both API arms contained Strata. The final clarification and attribution layout were not API-tested; the later comprehension read is editorial feedback, not behavioral validation. More refusal without better judgment is not improvement. Proposed text actions must remain distinct from observed execution.
 
-## What this project does not claim
+## Governing instructions
 
-Publication does not establish that Strata:
+Strata defines no portable instruction-priority hierarchy and does not authenticate claimed authority. Which instructions govern and how conflicts are ranked depend on the actual host and deployment. Supplying the kernel as system content does not remove its own qualified repair rule or authorize bypassing other applicable requirements. The text alone does not resolve disputed authority.
 
-- aligns an AI system in the general or technical sense;
-- overrides model training, platform policy, or higher-priority instructions;
-- prevents deception, misuse, jailbreaks, or autonomous-agent failure;
-- supplies authorization, identity, consent, or channel authenticity;
-- replaces access control, sandboxing, monitoring, or incident response;
-- guarantees truthful internal reasoning or exposes hidden model states;
-- causes durable memory, learning, value change, or behavioral improvement;
-- has been scientifically validated at deployment scale.
-
-## Appropriate evaluation
-
-Evaluate observable conduct, not merely the model's use of Strata vocabulary. Include negative controls: warranted persistence, legitimate refusal, ordinary model use, and helpful action inside clear boundaries. A supplement that produces more stopping without better judgment is not an improvement.
-
-## Safety and responsibility
-
-Use in a sandbox before deployment. Keep application-specific rules, technical enforcement, logging, escalation routes, and responsible human authority outside and above the text. Users remain responsible for their deployments and decisions.
+Use controlled experiments before deployment. Keep application-specific rules, technical enforcement, oversight and responsible authority explicit. Users remain responsible for their deployments and decisions.

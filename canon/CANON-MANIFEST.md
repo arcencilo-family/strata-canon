@@ -5,8 +5,8 @@ doctype: canon manifest — POINTER AND RECEIPT ONLY
 status: CANONICAL
 register: compact / operational
 file-limit: six files total including this manifest
-publication-version: 1.0.0
-publication-date: 2026-10-21
+publication-version: 1.1.0
+publication-date: 2026-11-12
 ---
 
 # Strata 0–3 — Canon Manifest
@@ -23,7 +23,7 @@ Drafts, panels, adjudications, handoffs, pedagogical corpora, and build processe
 
 ## Current canon
 
-Publication edition: **1.0.0** (2026-10-21). The lineage revisions below retain the documents' development history; they are not the edition number of the whole publication. Stable filenames are used across editions.
+Publication edition: **1.1.0** (2026-11-12). The lineage revisions below retain the documents' development history; they are not the edition number of the whole publication. Stable filenames are used across editions.
 
 | Layer | File | Lineage revision | Bytes | SHA-256 |
 |---|---|---:|---:|---|
@@ -31,7 +31,7 @@ Publication edition: **1.0.0** (2026-10-21). The lineage revisions below retain 
 | Stratum 1 | `Stratum-1_Minimal-Dynamics.md` | 0.4 | 6151 | `D6160ADB5C55DC7645C425056C13C667A7F79FB6DAEF9908DA766BF863A5F1E4` |
 | Stratum 2 | `Stratum-2_Orientation.md` | 0.4 | 7184 | `463051E6F0287E4DAEF94D6E58B2161F92E988C83A60B7D374730814711D8060` |
 | Stratum 3 | `Stratum-3_Operational-Permissions.md` | 0.4 | 20145 | `72F53D52F4DDE7C75C024AF1E534861B7DB58A11F37057B53BAA0E7CADF5CE28` |
-| AI kernel | `Strata-0-3_AI-Kernel.md` | 0.5 | 11055 | `5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230` |
+| AI kernel | `Strata-0-3_AI-Kernel.md` | 0.6 | 12336 | `6EEA7240F6C18F5F73F1CD417BE4C77A12D331B810384716687F31257E60EEFE` |
 
 ## Dependency order
 
@@ -44,14 +44,14 @@ Stratum 2 v0.4
     ↓
 Stratum 3 v0.4
     ↓
-AI kernel v0.5 — compact model-facing expression of all four
+AI kernel v0.6 — compact model-facing expression of all four
 ```
 
 ## Authority and amendment
 
-These files are the Strata 1.0.0 publication canon, not declarations of final truth. They remain open to evidence-based scrutiny and steward-authorized repair.
+These files are the Strata 1.1.0 publication canon, not declarations of final truth. They remain open to evidence-based scrutiny and steward-authorized repair.
 
-This edition is identified by the `v1.0.0` release tag and its preserved snapshot. Every content amendment requires a new publication version and preservation of the superseded release. The active internal and publication canon copies remain synchronized with refreshed receipts. Filenames remain stable; release tags and archived snapshots identify editions. Released tags and assets must not be rewritten or replaced.
+This edition is identified by the `v1.1.0` release tag and its preserved snapshot. Every content amendment requires a new publication version and preservation of the superseded release. The active internal and publication canon copies remain synchronized with refreshed receipts. Filenames remain stable; release tags and archived snapshots identify editions. Released tags and assets must not be rewritten or replaced.
 
 After the public freeze, an amendment requires:
 

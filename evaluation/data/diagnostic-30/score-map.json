@@ -1,0 +1,168 @@
+{
+  "records": [
+    {
+      "record_id": "S001",
+      "job_id": "J006",
+      "repeat": 1,
+      "arm": "released",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S002",
+      "job_id": "J002",
+      "repeat": 1,
+      "arm": "proposed",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S003",
+      "job_id": "J022",
+      "repeat": 4,
+      "arm": "released",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S004",
+      "job_id": "J024",
+      "repeat": 4,
+      "arm": "proposed",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S005",
+      "job_id": "J008",
+      "repeat": 2,
+      "arm": "released",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S006",
+      "job_id": "J025",
+      "repeat": 5,
+      "arm": "released",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S007",
+      "job_id": "J004",
+      "repeat": 1,
+      "arm": "proposed",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S008",
+      "job_id": "J030",
+      "repeat": 5,
+      "arm": "released",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S009",
+      "job_id": "J014",
+      "repeat": 3,
+      "arm": "proposed",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S010",
+      "job_id": "J020",
+      "repeat": 4,
+      "arm": "released",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S011",
+      "job_id": "J019",
+      "repeat": 4,
+      "arm": "proposed",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S012",
+      "job_id": "J012",
+      "repeat": 2,
+      "arm": "proposed",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S013",
+      "job_id": "J016",
+      "repeat": 3,
+      "arm": "proposed",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S014",
+      "job_id": "J010",
+      "repeat": 2,
+      "arm": "released",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S015",
+      "job_id": "J013",
+      "repeat": 3,
+      "arm": "released",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S016",
+      "job_id": "J026",
+      "repeat": 5,
+      "arm": "proposed",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S017",
+      "job_id": "J001",
+      "repeat": 1,
+      "arm": "released",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S018",
+      "job_id": "J028",
+      "repeat": 5,
+      "arm": "proposed",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S019",
+      "job_id": "J018",
+      "repeat": 3,
+      "arm": "released",
+      "kind": "C6_stop",
+      "model_returned": "claude-haiku-4-5-20251001"
+    },
+    {
+      "record_id": "S020",
+      "job_id": "J007",
+      "repeat": 2,
+      "arm": "proposed",
+      "kind": "C4",
+      "model_returned": "claude-haiku-4-5-20251001"
+    }
+  ],
+  "source_labels": {
+    "released": "K2",
+    "proposed": "K1"
+  }
+}

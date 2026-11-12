@@ -1,0 +1,60 @@
+{
+  "origins": {
+    "evaluation/runners/check-run_20261111/runner.py": "2C79368A959C1D556EB2E67B703A0BB53535387D1C3C4C81D0F9E107437EE1D3",
+    "evaluation/runners/check-run_20261111/continuation.py": "844F2B408C7B7963F32647A9B751C988A14F9FCE2F343F5F80374DC27BD9F5AB",
+    "evaluation/runners/check-run_20261111/test_runner_offline.py": "CC3F5C62B9F51F3E5A18CD2CDFE3AC8374BCAA68BD8B955A36CFA9EE65070BE7",
+    "evaluation/runners/check-run_20261111/test_continuation_offline.py": "F7838A100924B586AF0E0D4571A9EFD3452664D60B76C97E8F56F2528E9A825D",
+    "evaluation/runners/check-run_20261111/study.json": "581CA7F688851C437BEBCE13A07FB72E7A312FFB15FB6D3BACD331D48C762869",
+    "evaluation/runners/check-run_20261111/cases.json": "2ECC01C566229BDCE512DB2AE56A23E12DF769143CDE5C38F90DCDF3EEB1D982",
+    "evaluation/runners/check-run_20261111/RUBRIC.md": "38FA38A7A9ECAF15845764CDAF2DA87C7E13964BEE99DC07E0238A938DCC9B67",
+    "evaluation/runners/check-run_20261111/SCORER-BRIEF.md": "B99DC6BCF2A2476FD2DB8D10FED714E96945C8666380C25A3B7B1DC361854FAC",
+    "evaluation/runners/check-run_20261111/OFFICIAL-SOURCES.md": "0B0526405C070FEF63FBAC67C21C879894E82F64B085543CED14AE98ED94A65F",
+    "evaluation/runners/check-run_20261111/artifacts/Strata-0-3_AI-Kernel_1.0.0_RELEASED.md": "5B791A1FBAB8B28E539FB1CDA847938EEE12AD1BCBA2C301C4276D4D4376D230",
+    "evaluation/runners/check-run_20261111/artifacts/Strata-0-3_AI-Kernel_1.1.0_TEST.md": "D34BB79F3B661AB63B80F2BEE8A12798E6EF0CF240086963A502E126930ADA0C",
+    "evaluation/runners/diagnostic-proposal_20261111/runner.py": "ED9428F0B6F77AB3591E829CC81F4D74CA92447FB11B637DA7495E83AADB8A90",
+    "evaluation/runners/diagnostic-proposal_20261111/test_runner_offline.py": "9AA58B5D4F038A441349874ECD0D09A302FE34F140716AC4C8F33478815CDE5C",
+    "evaluation/runners/diagnostic-proposal_20261111/CONFIG.json": "C05CEECE0EDDA9ECE8175AA9887A4C80736A9B637C4B52927048F694D6DDC10B",
+    "evaluation/runners/diagnostic-proposal_20261111/PROMPTS.json": "0099F88DEFDE5DDEC53F68EC016A504B3A20F4C42123B019E9025D6CA4CDCCC7",
+    "evaluation/runners/diagnostic-proposal_20261111/BUDGET.json": "3DFB032215A68D2A0B71E373CE59297FBC90EFACC52A8ADD67C112295306999D",
+    "evaluation/runners/diagnostic-proposal_20261111/RUBRIC.md": "BE83C04464101BB8919D1AFBE4FB931D88BD1D8967543DD4B6D6DBBE643C47B4",
+    "evaluation/runners/diagnostic-proposal_20261111/SCORER-BRIEF.md": "6CF119CBF7C4CC4580834DF5E93300FEFCECAF2DBD4EE07C77B4049568C62124",
+    "evaluation/data/initial-42/SCORING-INITIAL.json": "3037A78AD7C78E6BB150BA7639C08BD958D164C0BE4CF9C6561B883BABEA971E",
+    "evaluation/data/initial-42/score-map.json": "738F31FA6C9116715F8F66545EB63D75E8682C209433361B34259426DD4E5FF7",
+    "evaluation/data/initial-42/PROTOCOL-DEVIATION.md": "8B02ED6AD169EE95943163B798A253AFDF48830490B789249CACC495D62B1318",
+    "evaluation/data/diagnostic-30/SCORING-INITIAL.json": "3E449F6E4053A21CC3FCF6EFE87B9653C6154EA3FC5692327122AAE98A7775B8",
+    "evaluation/data/diagnostic-30/SCORING-CONTEXT-SUPPLEMENT.json": "89F3F221183F066FD0A23EAFEE492425BC6142256E72C6C9B5241EECB4545F6D",
+    "evaluation/data/diagnostic-30/score-map.json": "FA8AD09176D1C5CE29422F66811E1922AB7C54BA031E997CE7B18113CA748AB9",
+    "evaluation/data/diagnostic-30/SCORER-CONTEXT-ADDENDUM_20261111.md": "A6237C267FBA0746996FBF68AA31BE734C34CD377558A23B5E74399001BC857E",
+    "evaluation/comprehension/reader-response.md": "980B80DFFE287471AA26EBDF90813E16792E883C55A8E58CFF9AB516D246195D",
+    "evaluation/comprehension/brief.md": "B566D6F2D78F9A54EDA7BD807F9353748CD3F88C0DBA83E3070FBA55892FCAB4",
+    "evaluation/comprehension/proposed/USE-FOR-COMPREHENSION.md": "2024FD5A6F3B17A7A2308FC68D4BACB3226522256BFAB65338DEC9B425F4E7B0"
+  },
+  "modified_exports": {
+    "evaluation/runners/diagnostic-proposal_20261111/runner.py": "Public freeze-list omits PLAN.md, README-RUNNER.md and RECEIPT.json only. Model request construction, budget controls and execution behavior are unchanged; private original runner preserved.",
+    "evaluation/data/initial-42/SCORING-INITIAL.json": "Public reviewer identity wording normalized; explicit export note added. All scoring entries or comprehension case text unchanged; original source hash retained.",
+    "evaluation/data/diagnostic-30/SCORING-INITIAL.json": "Public reviewer identity wording normalized; explicit export note added. All scoring entries or comprehension case text unchanged; original source hash retained.",
+    "evaluation/data/diagnostic-30/SCORING-CONTEXT-SUPPLEMENT.json": "Public reviewer identity wording normalized; explicit export note added. All scoring entries or comprehension case text unchanged; original source hash retained.",
+    "evaluation/comprehension/reader-response.md": "Public reviewer identity wording normalized; explicit export note added. All scoring entries or comprehension case text unchanged; original source hash retained."
+  },
+  "reconstructed_inputs": {
+    "initial-42": {
+      "SCORING-PACKET.json": {
+        "sha256": "6A95922C78CB881BAF0D345B5A3A7E43FBEFF6B0AA8A0E6050C2F6C9A1A079BC",
+        "newline": "CRLF"
+      }
+    },
+    "diagnostic-30": {
+      "SCORING-PACKET.json": {
+        "sha256": "256C3B07E64F45AE0D8EC655A58C5488097D198F81E39CA521645CBC34724D34",
+        "newline": "CRLF"
+      },
+      "SOURCE-TEXTS.json": {
+        "sha256": "9B7DF2930AF6E1FD88AD50AD2EF4F075E5FD577C2FEC6629A13894F4C227E44F",
+        "newline": "CRLF"
+      }
+    }
+  },
+  "data_encoding": "Per-call records keep all generated answer text, usage, timing, model identifiers and original request hashes. Shared prompts/kernels and setup dependencies reconstruct all exact request bodies; reconstruction checks each canonical body hash. Historical scorer packets/source-text JSON are regenerated byte-for-byte, including their original CRLF formatting.",
+  "original_record_scope": "Provider identifiers/headers and redundant full provider envelopes were omitted before this cleanup; source_record_sha256 identifies the preserved private original, not a publicly reconstructable complete envelope.",
+  "reviewer_labels": "Public labels A/B replace informal names in identity metadata only. All scoring entries, reasons, evidence and exposure history are unchanged. Historical input hashes in returns describe their original source files; current public hashes are in PUBLICATION-MANIFEST.json."
+}

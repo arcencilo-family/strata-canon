@@ -1,0 +1,18 @@
+name: Integrity and offline runner checks
+on: [push, pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -I -B tools/verify_publication.py
+      - run: python -I -B tools/test_verify_publication.py
+      - run: python -I -B test_runner_offline.py
+        working-directory: evaluation/runners/check-run_20261111
+      - run: python -I -B test_continuation_offline.py
+        working-directory: evaluation/runners/check-run_20261111
+      - run: python -I -B test_runner_offline.py
+        working-directory: evaluation/runners/diagnostic-proposal_20261111
